@@ -1,0 +1,37 @@
+.card1_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+
+  .title {
+    padding: 2rem 2rem;
+  }
+  h3 {
+    padding: 0 2rem;
+  }
+
+  .cont_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+    .img_container {
+      width: 100%;
+      padding: 2rem 2rem;
+      img {
+        width: 100%;
+      }
+    }
+    .text_container {
+      p {
+        padding: 0 2rem;
+        line-height: 1.8rem;
+      }
+      button {
+        margin: 2rem 2rem;
+      }
+    }
+  }
+}
