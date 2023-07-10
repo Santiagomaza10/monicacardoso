@@ -13,7 +13,7 @@ const Card2 = (props) => {
         <h2>{props.title}</h2>
         <p>{props.text}</p>
 
-        <span>Leer más</span>
+        <a src="#">Leer más</a>
       </div>
     </div>
   );
